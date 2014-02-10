@@ -4,7 +4,7 @@ function replace() {
   for (var i = 0; i < seenElems.length; ++i) {
     console.log("i");
     var seen = seenElems[i].firstChild.nextSibling.firstChild;
-    seen.nodeValue = seen.nodeValue.replace('Seen', 'Scorned');
+    seen.nodeValue = seen.nodeValue.replace('Seen', 'Violently Rejected');
   }
 }
 
